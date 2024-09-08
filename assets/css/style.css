@@ -1195,3 +1195,38 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+.ai-models {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.ai-models #ai-models-container {
+  margin-top: 30px;
+}
+
+.ai-models .model-node {
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.ai-models .model-header {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ai-models .model-header:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ai-models .model-children {
+  padding-left: 20px;
+}
+
+.ai-models .model-leaf {
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
