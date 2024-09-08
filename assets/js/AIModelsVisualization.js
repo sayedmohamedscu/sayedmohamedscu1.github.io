@@ -79,6 +79,8 @@ function createAIModelsVisualization() {
   const container = document.getElementById('ai-models-container');
   
   function createModelNode(model, depth = 0) {
+    header.style.backgroundColor = model.color || '#2c2f3f'; // Dark background
+    header.style.color = '#fff'; // White text
     const node = document.createElement('div');
     node.className = 'model-node';
     node.style.marginLeft = `${depth * 20}px`;
