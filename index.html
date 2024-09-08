@@ -28,6 +28,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/recharts/2.1.9/recharts.min.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -638,24 +642,23 @@
 
 
 <!-- ======= AI Models Section ======= -->
+
 <section id="ai-models" class="ai-models">
-  <div class="container">
-    <div class="section-title">
-      <h2>AI Models</h2>
-      <p>Expertise in Various AI & Machine Learning Models</p>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-12">
-        <div id="ai-models-container">
-          <!-- Content will be dynamically added here by JavaScript -->
-        </div>
+    <div class="container">
+      <div class="section-title">
+        <h2>AI Models</h2>
+        <p>My Expertise in AI & Machine Learning Models</p>
       </div>
-    </div>
-  </div>
-</section><!-- End AI Models Section -->
-<script src="assets/js/aiModelsVisualization.js"></script>
 
+      <div id="ai-models-visualization"></div>
+    </div>
+  </section><!-- End AI Models Section -->
+
+  <!-- ... (keep existing content) ... -->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script type="text/babel" src="assets/js/aiModelsVisualization.js"></script>
   
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
@@ -736,6 +739,8 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script type="text/babel" src="assets/js/AIModelsVisualization.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
