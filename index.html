@@ -650,106 +650,173 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-6 col-md-6">
-        <div class="ai-model-category">
+      <div class="col-lg-4 col-md-6">
+        <div class="ai-model-category" style="background-color: #FF6B6B;">
           <h3>Computer Vision</h3>
+          <div class="ai-model-subcategory">
+            <h4>Image Classification</h4>
+            <ul>
+              <li>Transformers (ViT, Dino2)</li>
+              <li>EfficientViT, MobileViT</li>
+              <li>Convolutional Neural Networks (CNNs)</li>
+            </ul>
+          </div>
+          <div class="ai-model-subcategory">
+            <h4>Object Detection</h4>
+            <ul>
+              <li>YOLO (v3 to v10)</li>
+              <li>DETR model</li>
+              <li>Faster R-CNN, SSD, RetinaNet</li>
+            </ul>
+          </div>
+          <div class="ai-model-subcategory">
+            <h4>Segmentation</h4>
+            <ul>
+              <li>SAM / SAM 2, EfficientSAM</li>
+              <li>UNET (CNN based)</li>
+              <li>NNU-Net (CNN & ViT based)</li>
+              <li>Mask R-CNN, DeepLab</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="ai-model-category" style="background-color: #4ECDC4;">
+          <h3>Advanced Vision Tasks</h3>
+          <div class="ai-model-subcategory">
+            <h4>Pose Estimation</h4>
+            <ul>
+              <li>OpenPose</li>
+              <li>Google Pose</li>
+            </ul>
+          </div>
+          <div class="ai-model-subcategory">
+            <h4>Face Recognition</h4>
+            <ul>
+              <li>FaceNet</li>
+              <li>DeepFace</li>
+              <li>ArcFace</li>
+            </ul>
+          </div>
+          <div class="ai-model-subcategory">
+            <h4>Visual Tracking</h4>
+            <ul>
+              <li>SORT</li>
+              <li>DeepSORT</li>
+            </ul>
+          </div>
+          <div class="ai-model-subcategory">
+            <h4>OCR</h4>
+            <ul>
+              <li>TrOCR</li>
+              <li>PaddleOCR</li>
+              <li>Tesseract</li>
+              <li>EasyOCR</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="ai-model-category" style="background-color: #FFA07A;">
+          <h3>Vision-Language Models</h3>
           <ul>
-            <li>Classification (Transformers, CNNs, ResNet, EfficientNet, VGG)</li>
-            <li>Segmentation (SAM, UNET, NNU-Net, Mask R-CNN, DeepLab)</li>
-            <li>Object Detection (YOLO, DETR, Faster R-CNN, SSD, RetinaNet)</li>
-            <li>Pose Estimation (OpenPose, DeepPose, AlphaPose)</li>
-            <li>Vision Language Models (CLIP, DALL-E, ViLBERT)</li>
-            <li>OCR (TrOCR, PaddleOCR, Tesseract, EasyOCR)</li>
-            <li>Image Generation (GANs, VAEs, Diffusion Models)</li>
-            <li>3D Vision (PointNet, VoxelNet, NeRF)</li>
-            <li>Visual Tracking (SORT, DeepSORT, SiamRPN)</li>
-            <li>Face Recognition (FaceNet, DeepFace, ArcFace)</li>
+            <li>PaLI</li>
+            <li>Florence</li>
+            <li>Phi-3, 3.5</li>
+            <li>LLaVA</li>
+            <li>OpenGPT-4</li>
+            <li>CLIP / SigLIP</li>
+            <li>GroundingDINO</li>
           </ul>
         </div>
       </div>
 
-      <div class="col-lg-6 col-md-6">
-        <div class="ai-model-category">
-          <h3>Natural Language Processing</h3>
-          <ul>
-            <li>Language Models (BERT, GPT, T5, XLNet, ALBERT)</li>
-            <li>Named Entity Recognition (SpaCy, Stanford NER, BERT-NER)</li>
-            <li>Sentiment Analysis (VADER, TextBlob, RoBERTa)</li>
-            <li>Machine Translation (Transformer, Seq2Seq, mBART)</li>
-            <li>Text Summarization (BART, PEGASUS, T5)</li>
-            <li>Question Answering (BERT-QA, SQuAD models, RoBERTa-QA)</li>
-            <li>Text Classification (FastText, DistilBERT, XLM)</li>
-            <li>Topic Modeling (LDA, NMF, BERTopic)</li>
-            <li>Word Embeddings (Word2Vec, GloVe, FastText)</li>
-            <li>Dialogue Systems (DialoGPT, Rasa, BERT-based chatbots)</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-lg-6 col-md-6">
-        <div class="ai-model-category">
+      <div class="col-lg-4 col-md-6">
+        <div class="ai-model-category" style="background-color: #9370DB;">
           <h3>Speech Processing</h3>
-          <ul>
-            <li>Speech Recognition (Whisper, DeepSpeech, Wav2Vec)</li>
-            <li>Text-to-Speech (Tacotron, WaveNet, FastSpeech)</li>
-            <li>Speaker Diarization (pyannote, EEND, VBx)</li>
-            <li>Voice Activity Detection (WebRTC VAD, Silero VAD)</li>
-            <li>Speech Enhancement (SEGAN, WaveNet denoisers)</li>
-            <li>Keyword Spotting (Honk, Snowboy, Porcupine)</li>
-            <li>Speech Emotion Recognition (SER, PASE+)</li>
-            <li>Voice Conversion (CycleGAN-VC, StarGAN-VC)</li>
-          </ul>
+          <div class="ai-model-subcategory">
+            <h4>Speech Recognition</h4>
+            <ul>
+              <li>Whisper</li>
+              <li>DeepSpeech</li>
+              <li>Wav2Vec</li>
+            </ul>
+          </div>
+          <div class="ai-model-subcategory">
+            <h4>Text-to-Speech</h4>
+            <ul>
+              <li>Various TTS models</li>
+            </ul>
+          </div>
         </div>
       </div>
 
-      <div class="col-lg-6 col-md-6">
-        <div class="ai-model-category">
+      <div class="col-lg-4 col-md-6">
+        <div class="ai-model-category" style="background-color: #66CDAA;">
           <h3>Generative Models</h3>
-          <ul>
-            <li>GANs (DCGAN, StyleGAN, CycleGAN, Pix2Pix)</li>
-            <li>VAEs (Beta-VAE, VQ-VAE, NVAE)</li>
-            <li>Diffusion Models (DDPM, Stable Diffusion, Imagen)</li>
-            <li>Autoregressive Models (PixelCNN, PixelRNN)</li>
-            <li>Flow-based Models (Glow, RealNVP)</li>
-            <li>Neural Style Transfer (AdaIN, WCT)</li>
-            <li>Text-to-Image (DALL-E, Midjourney, Stable Diffusion)</li>
-            <li>Music Generation (MuseNet, Jukebox)</li>
-            <li>Video Generation (VideoGPT, TGAN)</li>
-          </ul>
+          <div class="ai-model-subcategory">
+            <h4>Vision</h4>
+            <ul>
+              <li>Autoencoder, VAE, VQ-VAE</li>
+              <li>GAN, CycleGAN, StyleGAN</li>
+              <li>Stable Diffusion</li>
+            </ul>
+          </div>
+          <div class="ai-model-subcategory">
+            <h4>Language Models</h4>
+            <ul>
+              <li>LoRA / QLoRA</li>
+              <li>LLaMA 2 / 3 / 3.1</li>
+              <li>Phi-2, 3, 3.5</li>
+              <li>Mistral</li>
+            </ul>
+          </div>
+          <div class="ai-model-subcategory">
+            <h4>Autoregressive Models</h4>
+            <ul>
+              <li>PixelCNN</li>
+            </ul>
+          </div>
         </div>
       </div>
 
-      <div class="col-lg-6 col-md-6">
-        <div class="ai-model-category">
-          <h3>Reinforcement Learning</h3>
-          <ul>
-            <li>Q-Learning and Deep Q-Networks (DQN)</li>
-            <li>Policy Gradient Methods (REINFORCE, PPO, TRPO)</li>
-            <li>Actor-Critic Methods (A2C, A3C, SAC)</li>
-            <li>Model-Based RL (World Models, MuZero)</li>
-            <li>Multi-Agent RL (MADDPG, QMIX)</li>
-            <li>Inverse RL (Maximum Entropy IRL, GAIL)</li>
-            <li>Meta-RL (MAML, RL²)</li>
-            <li>Hierarchical RL (Option-Critic, HIRO)</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-lg-6 col-md-6">
-        <div class="ai-model-category">
+      <div class="col-lg-4 col-md-6">
+        <div class="ai-model-category" style="background-color: #DDA0DD;">
           <h3>MLOps</h3>
-          <ul>
-            <li>Model Deployment (Docker, Kubernetes, TensorFlow Serving)</li>
-            <li>AutoML (AutoKeras, TPOT, Auto-sklearn)</li>
-            <li>Model Optimization (Pruning, Quantization, Knowledge Distillation)</li>
-            <li>Experiment Tracking (MLflow, Weights & Biases, Neptune.ai)</li>
-            <li>Data Version Control (DVC, LakeFS)</li>
-            <li>CI/CD for ML (GitHub Actions, Jenkins, GitLab CI)</li>
-            <li>Model Monitoring (Prometheus, Grafana, Evidently AI)</li>
-            <li>Feature Stores (Feast, Hopsworks)</li>
-            <li>Model Registries (MLflow Model Registry, Amazon SageMaker Model Registry)</li>
-            <li>Scalable Training (Horovod, DeepSpeed, Distributed TensorFlow)</li>
-          </ul>
+          <div class="ai-model-subcategory">
+            <h4>Deployment</h4>
+            <ul>
+              <li>VLLM for production</li>
+              <li>Cloud platforms (AWS, GCP)</li>
+              <li>On-premise solutions</li>
+              <li>ONNX for serving</li>
+            </ul>
+          </div>
+          <div class="ai-model-subcategory">
+            <h4>Optimization & Tracking</h4>
+            <ul>
+              <li>Model Optimization (Pruning, Quantization, Knowledge Distillation)</li>
+              <li>Experiment Tracking (ClearML, Weights & Biases)</li>
+              <li>Data Version Control (DVC)</li>
+            </ul>
+          </div>
+          <div class="ai-model-subcategory">
+            <h4>Pipelines</h4>
+            <ul>
+              <li>AutoML pipelines</li>
+              <li>CI/CD for ML</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-lg-12">
+        <div class="ai-model-note">
+          <p><i class="bi bi-info-circle-fill me-2"></i>This visualization represents my expertise across various AI domains. Each category shows specific models and techniques I'm proficient in. The color of each section indicates its domain.</p>
         </div>
       </div>
     </div>
